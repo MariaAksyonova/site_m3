@@ -43,11 +43,11 @@
  }
  .r1 {
    left: 0;
-   animation: anim1 2s linear infinite ;
+   animation: anim1 4s linear infinite ;
    animation-play-state: running;
  }
  @keyframes anim1 {
-   0% {left: -642px}
+   0% {left: -2232px}
    100% {left: 0px}
  }
 
@@ -63,10 +63,10 @@
  }
  .r2 {
    left: 0;
-   animation: anim2 2s linear infinite ;
+   animation: anim2 5s linear infinite ;
    animation-play-state: running;
  }
  @keyframes anim2 {
-   0% {left: -642px}
+   0% {left: -2389px}
    100% {left: 0px}
  }
