@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Cygre Black';
+    src: url(/fonts/Cygre-Black.ttf) format('woff2'),
+         url(./fonts/Cygre-Black.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Стили для кнопки */
+.button a {
+    display: inline-block;
+    
+    color: #1D1C22; /* Цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-family: Arial, sans-serif; /* Шрифт */
+    font-size: 48px; /* Размер текста */
+}
+.button2 a {
+    display: inline-block;
+    
+    color: #1D1C22; /* Цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-family: Arial, sans-serif; /* Шрифт */
+    font-size: 48px; /* Размер текста */
+}
+
+/* Стили для розового прямоугольника */
+.pink-rectangle {
+    width: 100%; /* Ширина на всю ширину сайта */
+    height: 701px;
+    background-color: #FF007A; 
+}
+
+/*бегущая строка*/
+.running1 {
+   margin-top: 685px;
+   margin-left: 0px; 
+   width: 100%;
+   height: 209px;
+   overflow:hidden;}
+ .r1 {
+   position: relative;
+ }
+ .r1 {
+   left: 0;
+   animation: anim1 2s linear infinite ;
+   animation-play-state: running;
+ }
+ @keyframes anim1 {
+   0% {left: -642px}
+   100% {left: 0px}
+ }
+
+ /*бегущая строка*/
+.running2 {
+   margin-top: 0px;
+   margin-left: 0px; 
+   width: 100%;
+   height: 72px;
+   overflow:hidden;}
+ .r2 {
+   position: relative;
+ }
+ .r2 {
+   left: 0;
+   animation: anim2 2s linear infinite ;
+   animation-play-state: running;
+ }
+ @keyframes anim2 {
+   0% {left: -642px}
+   100% {left: 0px}
+ }
